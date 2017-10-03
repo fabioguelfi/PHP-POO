@@ -9,6 +9,8 @@ class ContaBanco
     private $saldo;
     private $status;
 
+
+
     // Metodos
     public function abrirConta($tipo){
         $this->setTipo($tipo);
